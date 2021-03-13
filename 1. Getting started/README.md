@@ -19,4 +19,21 @@ h1 {
     color: red;
 }
 ```  
-This above code selects the h1 tag and applying the red color to all the code that are written within the h1 tag.
+This above code selects the h1 tag and apply the red color to all the text that are written within the h1 tag.  
+* ### Class Selector  
+Class Selector is used when we have to apply the same style to all the elements that have the same class.  
+Class selectors can be used by adding . before the class-name in the css file.  
+Example:  
+```html
+ <!-- This is the HTML code -->
+<h1 class="blog-post"> Main Heading</h1>
+<p>This is the paragraph</p>
+<div class="blog-post">More information</div>
+```
+```css 
+/* This is the css code */
+.blog-post {
+    color: red
+}
+```
+Now all the elements that have class "blog-post" will get red text color.
