@@ -68,4 +68,12 @@ Example:
     color: red;
 }
 ```
- 
+
+
+> # CSS Specificity
+If you want the good understanding of CSS then you must understand the CSS Specificity.  
+CSS selectors have certain rules on the basis of these rules, it is determined that which style should be applied to which selector.  
+According to MDN, Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied.  
+Simply put, if two CSS selectors apply to the same element, the one with higher specificity is used.  
+You can also understand this in a simple way that, different selectors have deferent priorities.  
+Let's understand this with example:  
