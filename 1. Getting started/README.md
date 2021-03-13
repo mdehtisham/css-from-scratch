@@ -74,6 +74,11 @@ Example:
 If you want the good understanding of CSS then you must understand the CSS Specificity.  
 CSS selectors have certain rules on the basis of these rules, it is determined that which style should be applied to which selector.  
 According to MDN, Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied.  
-Simply put, if two CSS selectors apply to the same element, the one with higher specificity is used.  
+Simply put, if two CSS selectors applied to the same element, the one with higher specificity is used.  
 You can also understand this in a simple way that, different selectors have deferent priorities.  
-Let's understand this with example:  
+### Let's understand the Specificity Hierarchy
+* Inline Styles have higher specificity.
+* ID selectors have lower specificity than Inline Styles.
+* Classes, Attributes and Pseudo-classes have lower specificity than than the ID selectors.
+* Elements and Pseudo-elements have even lower specificity than the classes.  
+If two selectors have the same specificity then the selector that is declared last will take precedence.
