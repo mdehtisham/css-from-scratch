@@ -33,7 +33,39 @@ Example:
 ```css 
 /* This is the css code */
 .blog-post {
-    color: red
+    color: red;
 }
 ```
 Now all the elements that have class "blog-post" will get red text color.
+  
+* ### Universal Selector
+Universal selector is used to select all the elements and it is rarely used. * is used as universal selector.
+```css
+* {
+    color: red;
+}
+```
+* ### ID Selector
+We also can use ID selector to select the HTML element, but as we know that ID is unique. so the style will be applied to a perticular element with that ID.  
+And we use # sign before ID name to select an element with id.  
+Example:  
+```css
+#first-post {
+    color: red;
+}
+```
+* ### Attribute Selector
+We can select any HTML tag by the attributes they have. It can also be used to select many elements based on their attribute.  
+To select elements based on the attribute we have to use [attribute-name] as selector.  
+Example:  
+```html
+ <!-- This is the HTML code -->
+<button disabled>Click Me!</button>
+```
+```css 
+/* This is the css code */
+[disabled] {
+    color: red;
+}
+```
+ 

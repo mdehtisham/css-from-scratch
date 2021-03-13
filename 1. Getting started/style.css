@@ -1,9 +1,17 @@
-section {
-    background-color: #ff1b68
+
+/* Element Selector */
+h1 {
+    font-family: 'Anton', sans-serif;
 }
 
-h1 {
+/* ID Selector */
+#main-heading {
+    background-color: #ff1b68;
     color: white;
-    font-family: 'Anton', sans-serif;
+}
+
+/* Class Selector */
+.plans {
+    color: teal;
 }
 
