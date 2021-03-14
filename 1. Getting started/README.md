@@ -146,7 +146,7 @@ This given table describes what are Selectors, Properties and Values.
 |[disableb]   |margin          | 10px    |
 |*            |display         |block    |  
 
-## value Types
+## Value Types
 Values are tightly coupled with specific properties.  
 
 | Pre-defined Options  | Colors     | Length, Sizes & numbers  | Functions |
