@@ -82,3 +82,55 @@ You can also understand this in a simple way that, different selectors have defe
 * Classes, Attributes and Pseudo-classes have lower specificity than than the ID selectors.
 * Elements and Pseudo-elements have even lower specificity than the classes.  
 #### If two selectors have the same specificity then the selector that is declared last will take precedence.
+
+> # Inheritance
+Inheritance means that elements inherit some styles from the parent element.  
+In CSS, inheritance controls what happens when no value is specified for a property on an element.  
+CSS properties can be categorized in two types:
+* Inherited properties, which by default are set to the computed value of the parent element
+* Non-inherited properties, which by default are set to initial value of the property
+
+> # Combinator
+A CSS selector can contain more than one simple selector. Between the simple selectors, we can add a combinator.  
+
+There are four type of combinators in CSS:  
+
+* ### Decendant selector (space)
+The descendant selector matches all elements that are descendants of a specified element.  
+
+The following example selects all \<p> elements inside \<div> elements:   
+
+```css
+div p {
+    color: red;
+}
+```
+* ### Child selector (>)
+The child selector selects all elements that are the children of a specified element.  
+
+The following example selects all \<p> elements that are children of a \<div> element:
+```css
+div > p {
+    color: red;
+}
+```
+* ### Adjacent sibling selector (+)
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".  
+
+The following example selects the first \<p> element that are placed immediately after \<div> elements:
+```css
+div + p {
+    color: red;
+}
+```
+* ### General sibling selector (~)
+The general sibling selector selects all elements that are siblings of a specified element.  
+
+The following example selects all \<p> elements that are siblings of \<div> elements: 
+```css
+div ~ p {
+    color: red;
+}
+```

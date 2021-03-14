@@ -1,11 +1,13 @@
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 /* Element Selector */
 h1 {
     font-family: 'Anton', sans-serif;
 }
 
 /* ID Selector */
-#main-heading {
+#main-heading h1{
     background-color: #ff1b68;
     color: white;
 }
