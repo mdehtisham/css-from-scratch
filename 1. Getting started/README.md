@@ -146,6 +146,14 @@ This given table describes what are Selectors, Properties and Values.
 |[disableb]   |margin          | 10px    |
 |*            |display         |block    |  
 
+## value Types
+Values are tightly coupled with specific properties.  
+
+| Pre-defined Options  | Colors     | Length, Sizes & numbers  | Functions |
+|------       |--------        | --------| ------|
+|display: block;|background: red;| height: 100px; |  background: url(...);  |
+|overflow: auto;   |color: #fafafa;| width: 30%;| transform: scale(...); |
+|  |color: #ccc;| order: 1; |
 ___
 
 
