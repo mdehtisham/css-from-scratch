@@ -8,7 +8,7 @@ To add the style there are three main ways.
 There are many ways to add custom fonts but here I am using the google fonts to add the custom font.  
 To add google font, go to there website and select the required font and get the link tag and add it in the HTML file, above the style.css .
 
-## Basic Selectors
+> # Basic Selectors
 Selectors are used to add the style on a certain part of your HTML code.  
 Given below are few types of selectors:  
 * ### Elements Selector  
