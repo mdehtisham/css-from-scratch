@@ -134,3 +134,18 @@ div ~ p {
     color: red;
 }
 ```
+
+> # Selectors, Properties and Values
+This given table describes what are Selectors, Properties and Values.  
+
+| Selector    | Properties     | Values  |
+|------       |--------        | --------|
+|div          |background-color| red     |
+|.blog-post   |width           | 30%     |
+|#main-title  |color           | #fafafa |
+|[disableb]   |margin          | 10px    |
+|*            |display         |block    |  
+
+___
+
+
